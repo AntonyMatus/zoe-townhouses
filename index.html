@@ -9,9 +9,11 @@
 	<link rel="shortcut icon" href="./assets/images/logos/logo-bird.png">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/flexboxgrid.min.css">
+
 	<link rel="stylesheet" href="assets/plugins/photo-swipe/photoswipe.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/theme-vendors.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
 
@@ -196,7 +198,7 @@
 						<span class="content">AMENIDADES</span>
 					</h3>
 					<h1 class="title">Haz de ZOE tu nuevo hogar</h1>
-					<div class="row row-cols-1 row-cols-lg-5 row-cols-sm-2 client-logo-style-03 mt-5 margin-5-half-rem-bottom ">
+					<div class="row row-cols-1 row-cols-lg-5 row-cols-sm-2 client-logo-style-03 mt-5 ">
 						<div class="col text-center ">
 							<img loading="lazy" width="60" src="./assets/images/icons/porton.png" alt="Icono">
 							<h6 class="amenidades-icons">Portón de acceso vehicular</h6>
@@ -238,7 +240,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-md-7">
-					<img loading="lazy" src="assets/images/home/banner-roof-garden.png" alt="Roof garden">
+					<img loading="lazy" src="assets/images/home/Rof_garden.jpeg" alt="Roof garden">
 				</div>
 				<div class="col-xs-12 col-md-4 texts">
 					<h3 class="subtitle">
@@ -252,55 +254,62 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="container">
+	</section>
+	<section class="apartments-section">
+		<div class="container mb-0">
+			<div class="row ">
+				<div class="col-12 col-xl-10">
+					<div class="townhouses">
+						<h3 class="subtitle">
+							<span class="line"></span>
+							<span class="content">distribución de townhouses</span>
+						</h3>
+						<h1 class="title">Recárgate de energías positivas cada día</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container mt-5 mb-0" id="townhouses">
 			<div class="row">
-				<div class="departments" x-data="{ activeTab: 'tab1' }">					
+				<div class="departments townhouses" x-data="{ activeTab: 'tab1' }">
 					<div class="tabs">
-						<a type="button" @click="activeTab = 'tab1'" :class="{ 'active': activeTab === 'tab1' }">1 Recámara</a>
-						<a type="button" @click="activeTab = 'tab2'" :class="{ 'active': activeTab === 'tab2' }">2 Recámaras</a>
+						<a type="button" @click="activeTab = 'tab1'" :class="{ 'active': activeTab === 'tab1' }">Planta Baja</a>
+						<a type="button" @click="activeTab = 'tab2'" :class="{ 'active': activeTab === 'tab2' }">Planta Alta</a>
+						<a type="button" @click="activeTab = 'tab3'" :class="{ 'active': activeTab === 'tab3' }">Roof Garden</a>
 					</div>
 					<div class="tabs-container">
-						<div  x-show="activeTab === 'tab1'" class="tab row">
-							<div class="col-xs-12 col-md-7">
-								<img loading="lazy" src="./assets/images/room-1.jpg" alt="Imagen de una habitacion">
+						<div x-show="activeTab === 'tab1'" class="tab row">
+							<div class="col-xs-12 col-md-8 text-center">
+								<p class="info-plants">Un oasis de elegancia. Este townhouse en la planta baja una cochera para 2 vehículos, cuarto de lavado independiente, sala, comedor y cocina equipada. De igual manera cuenta con una terraza y un encantador jardín </p>
 							</div>
-							<div class="col-xs-12 col-md-5 texts">
-								<h6>Departamento de 1 Recámara</h6>
-								<h1>65m2</h1>
-								<p>
-									Los departamentos de 1 Habitación cuentan con un área de construcción de 65m2; al ingresar se encuentra la sala, comedor, cocina, medio baño y área de centro de lavado. La habitación cuenta con un clóset vestidor y baño completo.
-								</p>
-								<ul>
-									<li>Habitación principal con clóset vestidor y baño</li>
-									<li>Área para centro de lavado</li>
-									<li>Medio baño</li>
-									<li>Cocina</li>
-									<li>Sala</li>
-									<li>Comedor</li>
-								</ul>
+							<div class="col-xs-12 col-md-10 align-self-end">
+								<img loading="lazy" src="assets/images/townhouse/pb.jpeg" alt="Imagen de townhouse Planta Baja">
+							</div>
+							<div class="col-xs-12 col-md-5 texts margin-3-half-rem-top">
 								<a type="button" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">Solicitar más información</a>
 							</div>
 						</div>
 						<div x-show="activeTab === 'tab2'" class="tab row">
-							<div class="col-xs-12 col-md-7">
-								<img loading="lazy" src="./assets/images/room-2.jpg" alt="Imagen de una habitacion">
+							<div class="col-xs-12 col-md-8 text-center">
+								<p class="info-plants">La planta alta alberga la recámara principal y la recámara secundaria, cada una con su propio baño completo y clóset vestidor.</p>
 							</div>
-							<div class="col-xs-12 col-md-5 texts">
-								<h6>Departamento de 2 Recámaras</h6>
-								<h1>82m2</h1>
-								<p>
-									A ingresar se encuentra la sala, comedor, cocina, medio baño y área de centro de lavado. La habitación principal cuenta con un clóset vestidor y su baño completo. La habitación secundaria cuenta con su baño completo y espacio para clóset lineal.
+							<div class="col-xs-12 col-md-10 align-self-end">
+								<img loading="lazy" src="assets/images/townhouse/pa.jpeg" alt="Imagen de townhouse Planta Alta">
+							</div>
+							<div class="col-xs-12 col-md-5 texts margin-3-half-rem-top">
+								
+								<a type="button" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">Solicitar más información</a>
+							</div>
+						</div>
+						<div x-show="activeTab === 'tab3'" class="tab row">
+							<div class="col-xs-12 col-md-8 text-center">
+								<p class="info-plants">El área del roof cuenta con piscina, terraza equipada y medio baño, ofreciendo un espacio privado para relajarte. 
 								</p>
-								<ul>
-									<li>Habitación principal con clóset vestidor y baño</li>
-									<li>Habitación secundaria</li>
-									<li>Baño completo</li>
-									<li>Medio baño</li>
-									<li>Cocina</li>
-									<li>Sala</li>
-									<li>Comedor</li>
-									<li>Área para centro de lavado</li>
-								</ul>
+							</div>
+							<div class="col-xs-12 col-md-10 align-self-end">
+								<img loading="lazy" src="assets/images/townhouse/rg.jpeg" alt="Imagen de townhouse Roof Garden">
+							</div>
+							<div class="col-xs-12 col-md-5 texts margin-3-half-rem-top">
 								<a type="button" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">Solicitar más información</a>
 							</div>
 						</div>
@@ -308,154 +317,79 @@
 				</div>
 			</div>
 		</div>
-		<img class="banner-roof-garden-mobile" loading="lazy" src="./assets/images/banner-roof-garden-mobile.png" alt="Roof garden">
-		<div class="container" id="townhouses">
-			<div class="row">
-				<div class="departments townhouses" x-data="{ activeTab: 'tab1' }">
-					<h3 class="subtitle">
-						<span class="line"></span>
-						<span class="content">Townhouse azana</span>
-					</h3>
-					<h1 class="title">Tiempos de relax dentro del hogar</h1>
-					<p>
-						Los Townhouses de Azana se caracterizan por amplios espacios y calidad en su estructura.
-					</p>
-					<div class="tabs">
-						<a type="button" @click="activeTab = 'tab1'" :class="{ 'active': activeTab === 'tab1' }">Planta Baja</a>
-						<a type="button" @click="activeTab = 'tab2'" :class="{ 'active': activeTab === 'tab2' }">Planta Alta</a>
-					</div>
-					<div class="tabs-container">
-						<div x-show="activeTab === 'tab1'" class="tab row">
-							<div class="col-xs-12 col-md-7 align-self-end">
-								<img loading="lazy" src="./assets/images/townhouse-1.jpg" alt="Imagen de townhouse por dentro">
-							</div>
-							<div class="col-xs-12 col-md-5 texts">
-								<h1>98m2</h1>
-								<p>
-									El primer nivel, cuenta con un área de construcción aproximada de 98m2; con cochera para 2 vehículos techados. Al ingresar, se encuentra un medio baño y las escaleras para subir al segundo piso. Posteriormente nos encontramos con un ventanal para acceso a la terraza techada y jardín privado, y un acceso al parque central y las áreas comunes.
-								</p>
-								<ul>
-									<li>Cochera para 2 vehículos</li>
-									<li>Cocina, Sala y Comedor</li>
-									<li>Medio baño</li>
-									<li>Terraza y Jardín Privado</li>
-								</ul>
-								<a type="button" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">Solicitar más información</a>
-							</div>
-						</div>
-						<div x-show="activeTab === 'tab2'" class="tab row">
-							<div class="col-xs-12 col-md-7 align-self-end">
-								<img loading="lazy" src="./assets/images/townhouse-2.jpg" alt="Imagen de townhouse por dentro">
-							</div>
-							<div class="col-xs-12 col-md-5 texts">
-								<h1>98m2</h1>
-								<p>
-									En el segundo nivel, teniendo un área aproximada de 81m2 de construcción, tenemos un distribuidor para las habitaciones, posteriormente tenemos la habitación principal con área de clóset vestidor y su baño completo y la segunda habitación con vista hacia el parque central, misma que cuenta con clóset vestidor y su baño completo, de igual forma una habitación / estudio entre las mismas.
-								</p>
-								<ul>
-									<li>Habitación principal con clóset vestidor y baño completo</li>
-									<li>Habitación / estudio</li>
-									<li>Habitación secundaria con clóset vestidor y baño completo</li>
-									<li>Área para centro de lavado</li>
-								</ul>
-								<a type="button" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">Solicitar más información</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
 	</section>
-	<!-- <section class="gallery-section" id="gallery">
-		<div class="container">
+
+	<section class="gallery-section" id="gallery">
+			<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
 					<h3 class="subtitle">
 						<span class="line"></span>
 						<span class="content">Galería de imágenes</span>
 					</h3>
-					<h1 class="title">ENTREGA INMEDIATA <br> LLAVE EN MANO</h1>
+					<h1 class="title">Crea nuevos recuerdos en ZOE <br> townhouses</h1>
 				</div>
 			</div>
-			<div class="grid" id="gallery">
-				<a 
-					href="./assets/images/gallery/IMG_92831.jpg" 
-    				data-pswp-width="516" 
-    				data-pswp-height="387" 
-    				class="item1"
-				>
-					<img loading="lazy" src="./assets/images/gallery/IMG_92831.jpg" alt="Imagen de una casa">
-				</a>
-				<a 
-					href="./assets/images/gallery/IMG_92631.jpg" 
-    				data-pswp-width="514" 
-    				data-pswp-height="783" 
-					class="item2"
-				>
-					<img loading="lazy" src="./assets/images/gallery/IMG_92631.jpg" alt="Imagen de una casa">
-				</a>
-				<a
-					href="./assets/images/gallery/IMG_93101.jpg" 
-    				data-pswp-width="516" 
-    				data-pswp-height="387"  
-					class="item3"
-				>
-					<img loading="lazy" src="./assets/images/gallery/IMG_93101.jpg" alt="Imagen de una casa">
-				</a>
-				<a 
-					href="./assets/images/gallery/IMG_93102.jpg" 
-    				data-pswp-width="514" 
-    				data-pswp-height="386" 
-					class="item4"
-				>
-					<img loading="lazy" src="./assets/images/gallery/IMG_93102.jpg" alt="Imagen de una casa">
-				</a>
-				<a 
-					href="./assets/images/gallery/IMG_92761.jpg" 
-    				data-pswp-width="514" 
-    				data-pswp-height="386" 
-					class="item5"
-				>
-					<img loading="lazy" src="./assets/images/gallery/IMG_92761.jpg" alt="Imagen de una casa">
-				</a>
-				<a 
-					href="./assets/images/gallery/IMG_92701.jpg"
-					data-pswp-width="1037" 
-    				data-pswp-height="645"
-					class="item6"
-				>
-					<img loading="lazy" src="./assets/images/gallery/IMG_92701.jpg" alt="Imagen de una casa">
-				</a>
-				<a 
-					href="./assets/images/gallery/DSC_0037_2.jpg"
-					data-pswp-width="516" 
-    				data-pswp-height="343"
-					class="item7"
-				>
-					<img loading="lazy" src="./assets/images/gallery/DSC_0037_2.jpg" alt="Imagen de una casa">
-				</a>
-				<a 
-					href="./assets/images/gallery/IMG_93181.jpg"
-					data-pswp-width="514" 
-    				data-pswp-height="290"
-					class="item8"
-				>
-					<img loading="lazy" src="./assets/images/gallery/IMG_93181.jpg" alt="Imagen de una casa">
-				</a>
+			<div class="row justify-content-center">
+				<div class="col-12 col-xl-10 text-center">
+					<div class="cl_items cl_carousel2 owl-carousel owl-theme" data-aos="fade-up" id="popup-gallery">
+						<div class="cl_item">
+							<a  data-pswp-width="800" data-pswp-height="533"  href="assets/images/gallery/gallery_1.jpeg" title="Fachada">
+								<img id="firs_carrousel_image" class="carousel-img" loading="lazy" src="assets/images/gallery/gallery_1.jpeg" alt="Imagen 1">
+							</a>
+						</div>
+						<div class="cl_item">
+							<a data-pswp-width="800" data-pswp-height="533"  href="assets/images/gallery/gallery_2.jpeg"  title="">
+								<img id="second_carrousel_image" loading="lazy" src="assets/images/gallery/gallery_2.jpeg" alt="Imagen 2">
+							</a>
+						</div>
+						<div class="cl_item">
+							<a data-pswp-width="800" data-pswp-height="533"  href="assets/images/gallery/gallery_3.jpeg"  title="">
+								<img id="third_carrousel_image" loading="lazy" src="assets/images/gallery/gallery_3.jpeg" alt="Imagen 3">
+							</a>
+						</div>
+						<div class="cl_item">
+							<a data-pswp-width="800" data-pswp-height="533" href="assets/images/gallery/gallery_4.jpeg"  title="">
+
+								<img id="fouth_carrousel_image" loading="lazy" src="assets/images/gallery/gallery_4.jpeg" alt="Imagen 4">
+							</a>
+						</div>
+						<div class="cl_item">
+							<a data-pswp-width="800" data-pswp-height="533" href="assets/images/gallery/gallery_5.jpeg"  title="">
+								<img id="fifth_carrousel_image" loading="lazy" src="assets/images/gallery/gallery_5.jpeg" alt="Imagen 5">
+							</a>
+						</div>
+						<div class="cl_item">
+							<a data-pswp-width="800" data-pswp-height="533" href="assets/images/gallery/gallery_6.jpeg"  title="">
+								<img id="fifth_carrousel_image" loading="lazy" src="assets/images/gallery/gallery_6.jpeg" alt="Imagen 5">
+							</a>
+						</div>
+						<div class="cl_item">
+							<a data-pswp-width="800" data-pswp-height="533" href="assets/images/gallery/gallery_7.jpeg"  title="">
+								<img id="fifth_carrousel_image" loading="lazy" src="assets/images/gallery/gallery_7.jpeg" alt="Imagen 5">
+							</a>
+						</div>
+					</div>
+					<button class=" btn btn-green3 " onclick="openModal();" >VER GALERÍA DE FOTOS</button>
+
+					
+				</div>
 			</div>
+			
 		</div>
-	</section> -->
+	</section> 
+	
 	<section class="location-section">
-		<div class="container">
+		<div class="container mt-0">
 			<div class="row">
 				<div class="col-xs-12">
 					<h3 class="subtitle">
 						<span class="line"></span>
 						<span class="content">Ubicación privilegiada</span>
 					</h3>
-					<h1 class="title">Temozón Norte, zona ideal para <br> vivir en armonía</h1>
+					<h1 class="title">Cholul, un lugar de perfecta <br> armonía</h1>
 					<p>
-						Ubicación en alza entre las universidades destacadas, centros comerciales y hospitales de Yucatán. Con excelente accesibilidad, a minutos del periférico y a 20 minutos de Puerto Progreso. Azana, la comunidad exclusiva que redefine el entorno.
+						Cholul, un lugar que ofrece la perfecta armonía entre la tranquilidad de la naturaleza y la conveniencia de la vida moderna. Descubre un estilo de vida único en Cholul, donde la serenidad y la accesibilidad se fusionan para ofrecerte la experiencia perfecta de vivir en armonía.
 					</p>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14892.379408141527!2d-89.6125257!3d21.0688735!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56774473ab6e0d%3A0x485327805865ce3f!2sAzana!5e0!3m2!1ses!2smx!4v1697227219852!5m2!1ses!2smx" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
@@ -529,7 +463,7 @@
 				<img loading="lazy" width="200" src="assets/images/logos/logo-footer-zoe.png" alt="Logo de azana">
 			</div>
 			<p>
-				© <span id="year"></span> Azana boutique apartment - Desarrollado por <a href="https://www.buho-solutions.com" target="_blank" rel="noopener noreferrer">Búho Solutions</a>.
+				© <span id="year"></span> ZOE Townhouses - Desarrollado por <a href="https://www.buho-solutions.com" target="_blank" rel="noopener noreferrer">Búho Solutions</a>.
 			</p>
 		</div>
 	</footer>
@@ -543,9 +477,19 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/theme-vendors.min.js"></script>
+	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 
-	<script></script>
+	<script>
+		function openModal() {
+                const image = document.getElementById('firs_carrousel_image');
+
+                if(image) {
+                    image.click();
+                } 
+                
+            }
+	</script>
 
 	<script type="module">
 		import PhotoSwipeLightbox from './assets/plugins/photo-swipe/photoswipe-lightbox.esm.js';

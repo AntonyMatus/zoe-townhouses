@@ -1031,7 +1031,7 @@ input.btn:focus { border-width: 2px; }
     09. Background image
 ====================================== */
 
-.cover-background { background-repeat: no-repeat !important; background-size: cover !important; overflow: hidden; position: relative; background-position: center center !important; }
+.cover-background { background-repeat: no-repeat !important; background-size: cover !important; overflow: hidden; position: relative; background-position: bottom !important; }
 .fix-background { position: relative; background-size: cover !important; -webkit-animation-duration: 0s; -webkit-animation-fill-mode: none; overflow: hidden; background-position: center center; background-repeat: no-repeat !important; background-attachment: fixed !important; }
 .background-size-inherit { background-size: inherit; }
 .background-attachment-inherit { background-attachment: inherit; }
@@ -2750,7 +2750,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .navbar-collapse-show .navbar-toggler-line:nth-child(4) { top: 7px; width: 0%; }
 
 /* header background color on scroll */
-.sticky.header-appear .header-light, .sticky .header-light.header-always-fixed-scroll { background-color: #fff !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important }
+.sticky.header-appear .header-light, .sticky .header-light.header-always-fixed-scroll { background-color: #1D4E46 !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important }
 .sticky.header-appear .header-dark, .sticky .header-dark.header-always-fixed-scroll { background-color: #000 !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 .sticky .header-light, .sticky .header-light.header-always-fixed-scroll { box-shadow: 0 0 35px rgba(0,0,0,0.1); }
 

@@ -2065,5 +2065,38 @@
             });
         }
     }
+
+    $(".cl_carousel2").owlCarousel({
+        loop: false,
+        items: 1,
+        margin: 10,
+        nav: false,
+        dots: false,
+        center: true,
+        autoplay: false,
+        smartSpeed: 2000,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 10,
+                loop: true,
+                autoplay: true,
+                center: true,
+                nav: false,
+                dots: false
+                
+            },
+            700: {
+                items: 1,
+                margin: 20
+            },
+            1200: {
+                items: 1,
+                margin: 30
+            }
+        }
+        
+    });
     
 })( jQuery );

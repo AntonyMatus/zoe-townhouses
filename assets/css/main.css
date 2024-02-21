@@ -430,6 +430,55 @@ a {
   	width: 280px;
 }
 
+.townhouses {
+	position: relative;
+	text-align: center;
+}
+
+.townhouses .title {
+	font-family: 'Red Hat Display';
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 64px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #4A515B;
+}
+
+.townhouses .subtitle .line {
+	border: 1px solid #1D4E46;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+	bottom: 81%;
+	width: 320px;
+}
+
+.townhouses-description{
+	font-family: 'Red Hat Display';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #62656A;
+}
+
+.townhouses .subtitle .content {
+	color: #1D4E46;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: #fff;
+	padding: 0 20px;
+	position: relative;
+	z-index: 100;
+}
+
+
+
 .apartments-section .container .row .departments .subtitle .content {
 	color: #1D4E46;
 	font-family: 'Red Hat Display', sans-serif;
@@ -462,14 +511,14 @@ a {
 	font-size: 20px;
 	line-height: 24px;
 	text-align: center;
-	width: 50%;
-	margin: auto;
+	width: auto;
+	margin-bottom: 2rem;
 }
 
 .apartments-section .container .row .departments .tabs {
 	display: flex;
-	justify-content: center;
-	width: 410px;
+	justify-content: space-between;
+	width: 800px;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
@@ -479,7 +528,7 @@ a {
 	color: #4A515B;
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 20px;
 	padding: 10px 50px;
 	text-align: center;
@@ -487,8 +536,8 @@ a {
 }
 
 .apartments-section .container .row .departments .tabs a.active {
-	color: #86A170;
-	border-bottom: 1px solid #86A170;
+	color: #1D4E46;
+	border-bottom: 4px solid #1D4E46;
 }
 
 .apartments-section .container .row .departments .tabs-container {
@@ -559,13 +608,34 @@ a {
 }
 
 .apartments-section .container .row .departments .tabs-container .tab .texts a {
-	border: 1px solid #86A170;
-	color: #86A170;
-	font-family: 'Red Hat Display', sans-serif;
+	border: 1px solid #1D4E46;
+	color: #1D4E46;
+	font-family: 'Red Hat Display';
 	font-weight: 400;
 	font-size: 16px;
 	text-align: left;
 	padding: 10px 20px;
+}
+
+.btn.btn-green3 {
+	border: 1px solid #1D4E46;
+	color: #1D4E46;
+	font-family: 'Red Hat Display';
+	font-weight: 400;
+	font-size: 16px;
+	text-align: left;
+	padding: 10px 20px;
+	margin-top: 5rem;
+}
+
+.info-plants {
+	font-family: 'Red Hat Display';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #62656A;
 }
 
 .apartments-section .container-fluid {
@@ -612,6 +682,10 @@ a {
     padding: 0;
 }
 
+.gallery-section{
+	padding: 0px 0;
+}
+
 .gallery-section .container {
 	margin: 50px auto;
 }
@@ -627,7 +701,7 @@ a {
 }
 
 .gallery-section .container .row .subtitle .line {
-	border: 1px solid #86A170;
+	border: 1px solid #1D4E46;
 	position: absolute;
     left: 0;
     right: 0;
@@ -637,7 +711,7 @@ a {
 }
 
 .gallery-section .container .row .subtitle .content {
-	color: #86A170;
+	color: #1D4E46;
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
@@ -684,6 +758,11 @@ a {
 	width: 100%;
 }
 
+.location-section{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 .location-section .container {
 	margin: 100px auto;
 }
@@ -699,17 +778,17 @@ a {
 }
 
 .location-section .container .row .subtitle .line {
-	border: 1px solid #86A170;
+	border: 1px solid #1D4E46;
 	position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-  	bottom: 50%;
+  	bottom: 40%;
   	width: 280px;
 }
 
 .location-section .container .row .subtitle .content {
-	color: #86A170;
+	color: #1D4E46;
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
@@ -742,7 +821,7 @@ a {
 	letter-spacing: 0em;
 	margin-bottom: 30px;
 	text-align: center;
-	width: 75%;
+	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -751,8 +830,12 @@ a {
 	max-width: 100%;
 }
 
+.contact-section {
+	padding-top: 0px;
+}
+
 .contact-section .container {
-	margin: 100px auto;
+	margin: 0px auto;
 }
 
 .contact-section .container .row {
@@ -766,17 +849,26 @@ a {
 }
 
 .contact-section .container .row .subtitle .line {
-	border: 1px solid #86A170;
+	border: 1px solid #1D4E46;
 	position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-  	bottom: 50%;
+  	bottom: 40%;
   	width: 200px;
 }
 
+.form-check {
+	display: inline-flex !important;
+}
+
+.form-check-input[type=checkbox] {
+	border-color: #1D4E46;
+	padding: 8px !important;
+}
+
 .contact-section .container .row .subtitle .content {
-	color: #86A170;
+	color: #1D4E46;
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
@@ -809,8 +901,6 @@ a {
 }
 
 .contact-section .container div form input {
-	border: 0;
-	background: #F6F4F1;
 	color: #827E78;
 	font-family: 'Manrope', sans-serif;
 	font-size: 14px;
@@ -825,7 +915,6 @@ a {
 }
 
 .contact-section .container div form select {
-	border: 0;
 	background: #F6F4F1;
 	color: #827E78;
 	font-family: 'Manrope', sans-serif;
@@ -1222,6 +1311,7 @@ footer .container p a:hover {
 
 	.location-section .container {
 		width: 90%;
+		
 	}
 
 	.location-section .container .row .title {
