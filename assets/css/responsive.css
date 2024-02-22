@@ -6253,7 +6253,7 @@
     /* navigation */
     .navbar-toggler { margin-left: 0;}
     .navbar-nav { padding-left: 0; padding-right: 0; }
-    .navbar.navbar-boxed { padding-left: 0; padding-right: 0; }
+    .navbar.navbar-boxed { padding-left: 0; padding-right: 0; display: none; }
     .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid, .navbar-expand-lg>.container-lg, .navbar-expand-lg>.container-md, .navbar-expand-lg>.container-sm, .navbar-expand-lg>.container-xl { padding-right: 0; padding-left: 0; }
     .top-bar .container-lg { padding-left: 0; padding-right: 0;}
     header .top-bar + .navbar.fixed-top { top: 0; }
@@ -7988,7 +7988,133 @@
 
     /* countdown style 02 */
     .countdown.countdown-style-02 .countdown-box { margin-bottom: 15px; padding: 0 25px; }
+
+    .slider-text {
+        font-size: 40px;
+    }
+
+    .buttons a {
+        font-size: 8px;
+    }
 }
+
+@media screen and (max-width: 400px) {
+    .slider-text {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .buttons a {
+        font-size: 7px;
+    }
+
+    .azana-section .container .row .texts .subtitle .line {
+        width: 300px;
+    }
+
+    .azana-section .container .row .texts .subtitle .content {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .azana-section .container .row .texts .title {
+        font-size: 30px;
+    }
+
+    .azana-section .container .row .texts p {
+        font-size: 16px;
+    }
+
+    .sm-text-center {
+        text-align: center;
+    }
+
+    .apartments-section .container .row .texts .subtitle {
+        text-align: center;
+    }
+
+    .apartments-section .container .row .texts .subtitle .line {
+        width: 300px;
+    }
+
+    .apartments-section .container .row .texts .subtitle .content {
+        margin-left: 0px;
+    }
+
+    .apartments-section .container .row .texts .title {
+        font-size: 30px;
+    }
+
+    .apartments-section .container .row .texts p {
+        font-size: 16px;
+    }
+
+    .apartments-section .container .row .image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .sm-flex-column-reverse {
+        flex-direction: column-reverse;
+        gap: 4rem;
+    
+    }
+
+    .azana-section .container {
+        margin: 50px auto 0px auto;
+    }
+
+    .divider-section {
+        display: block;
+        height: auto;
+    }
+
+    .divider-section p {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .apartments-section .container {
+        margin: 50px auto 0px auto;
+    }
+
+    .apartments-section .container-fluid {
+        margin: 50px auto 0px auto;
+    }
+
+
+
+    .apartments-section .container .row .departments .title {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .amenidades-icons {
+        font-size: 14px;
+    }
+
+    .title-modelo {
+        font-size: 30px;
+    }
+
+    .buttons-models a{
+        font-size: 15px;
+        padding: 0px 30px;
+    }
+
+    .apartments-section .container-fluid .row .texts .subtitle {
+        text-align: center;
+    }
+
+    .apartments-section .container-fluid .row .texts .subtitle .content {
+        margin-left: 0px;
+    }
+
+    .apartments-section .container-fluid .row .texts .subtitle .line {
+        width: 300px;
+    }
+}
+
 @media (max-height: 460px) {
     /* header search */
     .active-form .form-wrapper .search-form { height: 85vh; }

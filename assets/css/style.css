@@ -786,7 +786,8 @@ input.btn:focus { border-width: 2px; }
 .buttons {
 	display: flex;
 	gap: 30px;
-	margin-top: 30px;
+	margin-top: 0px;
+    margin-left: 5rem;
 }
 
 .buttons a {

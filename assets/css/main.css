@@ -29,12 +29,13 @@ a {
 
 .slider-text {
 	font-family: 'Vonique64';
-    font-size: 76px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 81px;
     letter-spacing: 0.04em;
     text-align: left;
     color: white;
+	margin-left: 5rem;
 
 }
 
@@ -70,6 +71,7 @@ a {
 
 .navbar .container .main .logo img {
 	max-width: 100%;
+	width: 70%;
 }
 
 .navbar .container .main .list {
@@ -82,7 +84,7 @@ a {
 	color: #fff;
 	font-family: 'Red Hat Display', sans-serif;
 	font-style: bold;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -168,13 +170,13 @@ a {
 .azana-section .container .row .texts .subtitle .line {
 	position: absolute;
     left: 0;
-    border: 1px solid #86A170;
-  	width: 280px;
-  	bottom: 50%;
+    border: 1px solid #1D4E46;
+  	width: 360px;
+  	bottom: 40%;
 }
 
 .azana-section .container .row .texts .subtitle .content {
-	color: #86A170;
+	color: #1D4E46;
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
@@ -192,7 +194,7 @@ a {
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 54px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .azana-section .container .row .texts p {
@@ -292,6 +294,7 @@ a {
 
 .apartments-section .container .row .texts .subtitle {
 	position: relative;
+	margin-bottom: 10px;
 }
 .apartments-section .container-fluid .row .texts .subtitle {
 	position: relative;
@@ -377,7 +380,7 @@ a {
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 54px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .apartments-section .container .row .texts p {
@@ -497,7 +500,7 @@ a {
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 54px;
-	margin-bottom: 30px;
+	margin-bottom: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -660,8 +663,8 @@ a {
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 54px;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 40px;
 }
 
 .apartments-section .container-fluid .row .texts p {
@@ -819,7 +822,7 @@ a {
 	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: 0em;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	text-align: center;
 	width: 65%;
 	margin-left: auto;
@@ -935,7 +938,7 @@ a {
 
 .contact-section .container div form button {
 	border: 0;
-	background: #86A170;
+	background: #1D4E46;
 	color: #fff;
 	font-family: 'Red Hat Display';
 	font-size: 16px;
@@ -996,7 +999,7 @@ footer .container p a:hover {
   	font-size: 26px; 
   	text-transform: uppercase;
   	font-weight: bold;
-  	background-color: #25D366;
+  	background-color: #8DC329;
   	padding: 23px 25px;
   	position: fixed;
   	bottom: 40px;
@@ -1021,6 +1024,11 @@ footer .container p a:hover {
 .form-check-label a {
 	color: #86A170;
 	text-decoration: underline;
+}
+
+.form-check-label a:hover {
+	color: #86A170;
+	text-decoration: none;
 }
 
 .info-privacidad{
