@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/plugins/photo-swipe/photoswipe.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/theme-vendors.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
@@ -21,115 +22,138 @@
 
 	
 </head>
-<body>
-	<nav class="navbar navbar-expand-lg top-space navbar-light header-light fixed-top navbar-boxed header-reverse-scroll">
-		<div class="container">
-			<div class="main">
-				<div class="logo">
-					<img loading="lazy" width="100%" src="assets/images/logos/zoe-logo.svg" alt="Logo Azana">
-				</div>
-				<ul class="list">
-					<li>
-						<a href="#">Inicio</a>
-					</li>
-					<li>
-						<a href="#townhouses">Townhouses</a>
-					</li>
-					<li>
-						<a href="#gallery">Galería</a>
-					</li>
-					<li>
-						<a href="#contact">Contacto</a>
-					</li>
-				</ul>
-			</div>	
-			<a type="button" class="btn-contact" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">
-				Whatsapp de contacto
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#FFFFFF">
-					<path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
-				</svg>
-			</a>
-		</div>
-	</nav>
+<body data-mobile-nav-style="classic">
 	<header class="header-with-topbar">
-		<section class="p-0">
-			<div class="swiper-container white-move mobileoff-fullscreen-top-space md-h-600px sm-h-500px" data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-pagination", "clickable": true }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 4500, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
-				<div class="swiper-wrapper">
-					<!-- start slider item -->
-					<div class="swiper-slide cover-background" style="background-image:url('assets/images/slider/slider1.jpeg');">
-						<div class="overlay-bg background-linear-gradient-green"></div>
-						<div class="container h-100">
-							<div class="row h-100">
-								<div class="col-8 col-xl-5 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
-									<h2 class="slider-text">EL INICIO DE TU NUEVA	VIDA.</h2>
-									<div class="buttons">
-										<a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-green2">¡Me interesa!</a>
-										<a href="#gallery" class="btn btn-border-white">Galería de Imágenes</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- end slider item -->
-					<!-- start slider item -->
-					<div class="swiper-slide cover-background" style="background-image:url('assets/images/slider/slider2.jpeg');">
-						<div class="overlay-bg background-linear-gradient-green"></div>
-						<div class="container h-100">
-							<div class="row h-100">
-								<div class="col-8 col-xl-5 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
-									<h2 class="slider-text">EL INICIO DE TU NUEVA	VIDA.</h2>
-									<div class="buttons">
-										<a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-green2">¡Me interesa!</a>
-										<a href="#gallery" class="btn btn-border-white">Galería de Imágenes</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- end slider item -->
-					<!-- start slider item -->
-					<div class="swiper-slide cover-background" style="background-image:url('assets/images/slider/slider3.jpeg');">
-						<div class="overlay-bg background-linear-gradient-green"></div>
-						<div class="container h-100">
-							<div class="row h-100">
-								<div class="col-8 col-xl-5 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
-									<h2 class="slider-text">EL INICIO DE TU NUEVA	VIDA.</h2>
-									<div class="buttons">
-										<a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-green2">¡Me interesa!</a>
-										<a href="#gallery" class="btn btn-border-white">Galería de Imágenes</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- end slider item -->                          
-					<!-- start slider item -->
-					<div class="swiper-slide cover-background" style="background-image:url('assets/images/slider/slider4.jpeg');">
-						<div class="overlay-bg background-linear-gradient-green"></div>
-						<div class="container h-100">
-							<div class="row h-100">
-								<div class="col-8 col-xl-5 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
-									<h2 class="slider-text">EL INICIO DE TU NUEVA	VIDA.</h2>
-									<div class="buttons">
-										<a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-green2">¡Me interesa!</a>
-										<a href="#gallery" class="btn btn-border-white">Galería de Imágenes</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- end slider item -->                          
+		<nav class="navbar navbar-expand-lg top-space  navbar-dark bg-green2  header-dark fixed-top navbar-boxed header-reverse-scroll">
+			<div class="container-fluid nav-header-container justify-content-between">
+				<div class="col-auto col-lg-2 col-sm-5 ps-lg-0 me-auto me-lg-0 " >
+					<a class="navbar-brand" href="index.html">
+						<img src="assets/images/logos/zoe-logo.svg" alt="" class="default-logo" >
+						<img src="assets/images/logos/zoe-logo.svg" alt="" class="alt-logo" >
+						<img src="assets/images/logos/zoe-logo.svg" class="mobile-logo float-left" alt="" >
+					</a>
 				</div>
-				<!-- start slider pagination -->
-				<div class="swiper-pagination swiper-light-pagination"></div>
-				<!-- end slider pagination -->
-				<!-- start slider navigation -->
-				<!-- <div class="swiper-button-next-nav swiper-button-next rounded-circle slider-navigation-style-07"><i class="feather icon-feather-arrow-right"></i></div>
-				<div class="swiper-button-previous-nav swiper-button-prev rounded-circle slider-navigation-style-07"><i class="feather icon-feather-arrow-left"></i></div>  -->
-				<!-- end slider navigation -->
+				<div class="col-auto col-lg-7 col-sm-2 md-position-initial sm-padding-0px-lr">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+						<span class="navbar-toggler-line"></span>
+						<span class="navbar-toggler-line"></span>
+						<span class="navbar-toggler-line"></span>
+						<span class="navbar-toggler-line"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+						<ul class="navbar-nav alt-font2 align-items-center">
+							<li class="nav-item dropdown megamenu">
+								<a href="#intro2" class="nav-link text-uppercase">Inicio</a>
+							</li>
+							<li class="nav-item dropdown simple-dropdown">
+								<a href="#townhouses" class="nav-link text-uppercase">Townhouses</a>
+							</li>
+							<li class="nav-item dropdown simple-dropdown">
+								<a href="#gallery" class="nav-link text-uppercase">Galería</a>
+							</li>
+							<li class="nav-item dropdown simple-dropdown">
+								<a href="#contacto" class="nav-link text-uppercase">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-auto col-lg-3 sm-d-none">
+					<a type="button" class="btn-contact" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">
+						Whatsapp de contacto
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_539_276)">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M6.40009 9C6.40009 9.5 6.00009 9.9 5.50009 9.9C5.00009 9.9 4.60009 9.5 4.60009 9C4.60009 8.5 5.00009 8.1 5.50009 8.1C6.00009 8.1 6.40009 8.5 6.40009 9ZM13.4001 9C13.4001 9.5 13.0001 9.9 12.5001 9.9C12.0001 9.9 11.6001 9.5 11.6001 9C11.6001 8.5 12.0001 8.1 12.5001 8.1C13.0001 8.1 13.4001 8.5 13.4001 9ZM9.90009 9C9.90009 9.5 9.50009 9.9 9.00009 9.9C8.50009 9.9 8.10009 9.5 8.10009 9C8.10009 8.5 8.50009 8.1 9.00009 8.1C9.50009 8.1 9.90009 8.5 9.90009 9ZM9.00009 16.6C7.60009 16.6 6.20009 16.2 5.00009 15.5C4.80009 15.4 4.60009 15.4 4.40009 15.4L1.80009 16.2L2.60009 13.6C2.70009 13.4 2.60009 13.2 2.50009 13C1.70009 11.8 1.30009 10.4 1.40009 9C1.40009 4.8 4.80009 1.4 9.00009 1.4C13.2001 1.4 16.6001 4.8 16.6001 9C16.6001 13.2 13.2001 16.6 9.00009 16.6ZM9.00009 0C4.00009 0 9.27746e-05 4 9.27746e-05 9C9.27746e-05 10.6 0.400093 12.1 1.20009 13.5L9.27746e-05 17.1C-0.0999072 17.5 0.100093 17.9 0.500093 18C0.600093 18 0.800093 18 0.900093 18L4.50009 16.8C8.80009 19.3 14.3001 17.8 16.8001 13.5C19.3001 9.2 17.8001 3.7 13.5001 1.2C12.1001 0.4 10.6001 0 9.00009 0Z" fill="white"/>
+							</g>
+							<defs>
+								<clipPath id="clip0_539_276">
+									<rect width="18" height="18" fill="white"/>
+								</clipPath>
+							</defs>
+						</svg>
+					</a>
+				</div>
+
 			</div>
-		</section>
+		</nav> 
 	</header>
+	<section class="p-0">
+		<div class="swiper-container white-move mobileoff-fullscreen-top-space md-h-600px sm-h-500px" data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-pagination", "clickable": true }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 4500, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
+			<div class="swiper-wrapper">
+				<!-- start slider item -->
+				<div class="swiper-slide cover-background" style="background-image:url('assets/images/slider/slider1.jpeg');">
+					<div class="overlay-bg background-linear-gradient-green"></div>
+					<div class="container h-100">
+						<div class="row h-100">
+							<div class="col-8 col-xl-5 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
+								<h2 class="slider-text">EL INICIO DE TU NUEVA	VIDA.</h2>
+								<div class="buttons">
+									<a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-green2">¡Me interesa!</a>
+									<a href="#gallery" class="btn btn-border-white">Galería de Imágenes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end slider item -->
+				<!-- start slider item -->
+				<div class="swiper-slide cover-background" style="background-image:url('assets/images/slider/slider2.jpeg');">
+					<div class="overlay-bg background-linear-gradient-green"></div>
+					<div class="container h-100">
+						<div class="row h-100">
+							<div class="col-8 col-xl-5 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
+								<h2 class="slider-text">EL INICIO DE TU NUEVA	VIDA.</h2>
+								<div class="buttons">
+									<a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-green2">¡Me interesa!</a>
+									<a href="#gallery" class="btn btn-border-white">Galería de Imágenes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end slider item -->
+				<!-- start slider item -->
+				<div class="swiper-slide cover-background" style="background-image:url('assets/images/slider/slider3.jpeg');">
+					<div class="overlay-bg background-linear-gradient-green"></div>
+					<div class="container h-100">
+						<div class="row h-100">
+							<div class="col-8 col-xl-5 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
+								<h2 class="slider-text">EL INICIO DE TU NUEVA	VIDA.</h2>
+								<div class="buttons">
+									<a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-green2">¡Me interesa!</a>
+									<a href="#gallery" class="btn btn-border-white">Galería de Imágenes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end slider item -->                          
+				<!-- start slider item -->
+				<div class="swiper-slide cover-background" style="background-image:url('assets/images/slider/slider4.jpeg');">
+					<div class="overlay-bg background-linear-gradient-green"></div>
+					<div class="container h-100">
+						<div class="row h-100">
+							<div class="col-8 col-xl-5 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
+								<h2 class="slider-text">EL INICIO DE TU NUEVA	VIDA.</h2>
+								<div class="buttons">
+									<a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-green2">¡Me interesa!</a>
+									<a href="#gallery" class="btn btn-border-white">Galería de Imágenes</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end slider item -->                          
+			</div>
+			<!-- start slider pagination -->
+			<div class="swiper-pagination swiper-light-pagination"></div>
+			<!-- end slider pagination -->
+			<!-- start slider navigation -->
+			<!-- <div class="swiper-button-next-nav swiper-button-next rounded-circle slider-navigation-style-07"><i class="feather icon-feather-arrow-right"></i></div>
+			<div class="swiper-button-previous-nav swiper-button-prev rounded-circle slider-navigation-style-07"><i class="feather icon-feather-arrow-left"></i></div>  -->
+			<!-- end slider navigation -->
+		</div>
+	</section>
+	
 	<section class="azana-section" id="azana">
 		<div class="container">
 			<div class="row justify-content-between">
@@ -236,8 +260,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="apartments-section margin-5-half-rem-top">
-		<div class="container-fluid">
+	<section class="apartments-section margin-5-half-rem-top sm-margin-0px-top">
+		<div class="container-fluid sm-w-80 ">
 			<div class="row sm-flex-column-reverse">
 				<div class="col-xs-12 col-md-7">
 					<img loading="lazy" src="assets/images/home/Rof_garden.jpeg" alt="Roof garden">
@@ -282,8 +306,10 @@
 							<div class="col-xs-12 col-md-8 text-center">
 								<p class="info-plants">Un oasis de elegancia. Este townhouse en la planta baja una cochera para 2 vehículos, cuarto de lavado independiente, sala, comedor y cocina equipada. De igual manera cuenta con una terraza y un encantador jardín </p>
 							</div>
-							<div class="col-xs-12 col-md-10 align-self-end">
-								<img loading="lazy" src="assets/images/townhouse/pb.jpeg" alt="Imagen de townhouse Planta Baja">
+							<div class="col-xs-12 col-md-10 align-self-end" >
+								<a class="single-image-lightbox"   href="assets/images/townhouse/pb.jpeg"  title=" Planta Baja">
+									<img loading="lazy" src="assets/images/townhouse/pb.jpeg" alt="Imagen de townhouse Planta Baja">
+								</a>
 							</div>
 							<div class="col-xs-12 col-md-5 texts margin-3-half-rem-top">
 								<a type="button" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">Solicitar más información</a>
@@ -294,7 +320,9 @@
 								<p class="info-plants">La planta alta alberga la recámara principal y la recámara secundaria, cada una con su propio baño completo y clóset vestidor.</p>
 							</div>
 							<div class="col-xs-12 col-md-10 align-self-end">
-								<img loading="lazy" src="assets/images/townhouse/pa.jpeg" alt="Imagen de townhouse Planta Alta">
+								<a class="single-image-lightbox"   href="assets/images/townhouse/pa.jpeg"  title="Planta Alta">
+									<img loading="lazy" src="assets/images/townhouse/pa.jpeg" alt="Imagen de townhouse Planta Alta">
+								</a>
 							</div>
 							<div class="col-xs-12 col-md-5 texts margin-3-half-rem-top">
 								
@@ -307,7 +335,9 @@
 								</p>
 							</div>
 							<div class="col-xs-12 col-md-10 align-self-end">
-								<img loading="lazy" src="assets/images/townhouse/rg.jpeg" alt="Imagen de townhouse Roof Garden">
+								<a class="single-image-lightbox"   href="assets/images/townhouse/rg.jpeg"  title=" Roof Garden">
+									<img loading="lazy" src="assets/images/townhouse/rg.jpeg" alt="Imagen de townhouse Roof Garden">
+								</a>
 							</div>
 							<div class="col-xs-12 col-md-5 texts margin-3-half-rem-top">
 								<a type="button" href="https://wa.link/grb7hk" target="_blank" rel="noopener noreferrer">Solicitar más información</a>
@@ -380,7 +410,7 @@
 	</section> 
 	
 	<section class="location-section">
-		<div class="container mt-0">
+		<div class="container mt-0 sm-margin-30px-bottom">
 			<div class="row">
 				<div class="col-xs-12">
 					<h3 class="subtitle">
@@ -438,9 +468,8 @@
 									required 
 								>
 									<option value="" selected>Tipo de propiedad de interés</option>
-									<option>Townhouse</option>
-									<option>Departamento 1 Recámara</option>
-									<option>Departamento 2 Recámaras</option>
+									<option>Modelo A</option>
+									<option>Modelo B</option>
 								</select>
 							</div>
 							<div class="col-xs-12 col-md-12">
@@ -478,12 +507,12 @@
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/theme-vendors.min.js"></script>
 	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 
 	<script>
 		function openModal() {
                 const image = document.getElementById('firs_carrousel_image');
-
                 if(image) {
                     image.click();
                 } 
@@ -494,11 +523,13 @@
 	<script type="module">
 		import PhotoSwipeLightbox from './assets/plugins/photo-swipe/photoswipe-lightbox.esm.js';
 		const lightbox = new PhotoSwipeLightbox({
-	  		gallery: '#gallery',
-		  	children: 'a',
-		  	pswpModule: () => import('./assets/plugins/photo-swipe/photoswipe.esm.js')
+			gallery: '#gallery',
+			children: 'a',
+			pswpModule: () => import('./assets/plugins/photo-swipe/photoswipe.esm.js')
 		});
 		lightbox.init();
+
+		
 	</script>
 </body>
 </html>
