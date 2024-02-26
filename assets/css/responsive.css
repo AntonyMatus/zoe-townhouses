@@ -5267,6 +5267,10 @@
     .sm-no-margin-tb { margin-top: 0 !important; margin-bottom: 0 !important; }
     .sm-no-margin-lr { margin-right: 0 !important; margin-left: 0 !important; }
 
+    .sm-gap-2rem {
+        gap: 2rem;
+    }
+
     /* padding */
     .sm-padding-one-all { padding:1%; }
     .sm-padding-two-all { padding:2%; }
@@ -8028,9 +8032,9 @@
     }
 
     .townhouses .title {
-        font-size: 30px;
+        font-size: 35px;
         line-height: 45px;
-        text-align: left;
+        text-align: center;
         margin-bottom: 0px;
     }
 
@@ -8069,12 +8073,18 @@
     }
 
     .azana-section .container .row .texts .subtitle .content {
-        font-size: 14px;
+        font-size: 16px;
         padding: 0 10px;
     }
 
     .azana-section .container .row .texts .title {
-        font-size: 30px;
+        font-size: 40px;
+        text-align-last: left;
+    }
+
+    .azana-section .container .row .texts .cards .item p{
+        font-size: 18px;
+        line-height: 22px;
     }
 
     .azana-section .container .row .texts p {
@@ -8095,14 +8105,19 @@
 
     .apartments-section .container .row .texts .subtitle .content {
         margin-left: 0px;
+        font-size: 16px;
+    }
+
+    .apartments-section .container .row .departments .subtitle .content {
+        font-size: 16px;
     }
 
     .apartments-section .container .row .texts .title {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .apartments-section .container .row .texts p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .apartments-section .container .row .image {
@@ -8141,8 +8156,9 @@
 
 
     .apartments-section .container .row .departments .title {
-        font-size: 30px;
+        font-size: 40px;
         margin-bottom: 50px;
+        text-align-last: left;
     }
 
     .amenidades-icons {
@@ -8164,6 +8180,11 @@
 
     .apartments-section .container-fluid .row .texts .subtitle .content {
         margin-left: 0px;
+        font-size: 16px;
+    }
+
+    .gallery-section .container .row .subtitle .content{
+        font-size: 16px;
     }
 
     .apartments-section .container-fluid .row .texts .subtitle .line {
@@ -8171,7 +8192,12 @@
     }
 
     header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img {
-        max-height: 33px;
+        max-height: 54px;
+    }
+
+    .btn.btn-green2 {
+        height: 55px;
+
     }
 }
 

@@ -983,12 +983,12 @@ footer .container p a:hover {
 }
 
 .form-check-label a {
-	color: #86A170;
+	color: #1D4E46;
 	text-decoration: underline;
 }
 
 .form-check-label a:hover {
-	color: #86A170;
+	color: #1D4E46;
 	text-decoration: none;
 }
 
@@ -1222,7 +1222,8 @@ footer .container p a:hover {
 
 	.apartments-section .container .row .departments p {
 		width: 100%;
-		font-size: 16px;
+		font-size: 18px;
+		text-align: left;
 	}
 
 	.apartments-section .container .row .departments .tabs {
@@ -1252,15 +1253,15 @@ footer .container p a:hover {
 	}
 
 	.apartments-section .container-fluid .row .texts p {
-		text-align: center;
-		font-size: 16px;
+		text-align: left;
+		font-size: 18px;
 	}
 
 	.apartments-section .container-fluid .row .texts h1 {
-		font-size: 30px;
+		font-size: 40px;
 		line-height: 44px;
 		letter-spacing: 0em;
-		text-align: center;
+		text-align: left;
 	}
 
 	.apartments-section .banner-roof-garden-mobile {
@@ -1274,9 +1275,14 @@ footer .container p a:hover {
 	}
 
 	.gallery-section .container .row .title {
-		font-size: 30px;
+		font-size: 36px;
 		line-height: 44px;
 		letter-spacing: 0em;
+		margin-bottom: 40px;
+	}
+
+	.location-section .container .row .subtitle .content {
+		font-size: 16px;
 	}
 
 	.gallery-section .container .grid {
@@ -1290,14 +1296,15 @@ footer .container p a:hover {
 	}
 
 	.location-section .container .row .title {
-		font-size: 30px;
+		font-size: 36px;
 		line-height: 44px;
 		letter-spacing: 0em;
 	}
 
 	.location-section .container .row p {
 		width: 100%;
-		font-size: 16px;
+		font-size: 18px;
+		text-align: left;
 	}
 
 	.contact-section .container {
@@ -1305,7 +1312,7 @@ footer .container p a:hover {
 	}
 
 	.contact-section .container .row .title {
-		font-size: 30px;
+		font-size: 36px;
 		line-height: 44px;
 		letter-spacing: 0em;
 	}

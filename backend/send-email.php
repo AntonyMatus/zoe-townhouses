@@ -16,8 +16,9 @@ if (
 	// Email Receiver Address
 	$receiver_email = 'inmobiliaria.tanay@outlook.es';
 
+	/*  */
 	// Email Receiver Name for SMTP Email
-	$receiver_name 	= 'Azana';
+	$receiver_name 	= 'Zoe Townhouses';
 
 	// Email Subject
 	$subject_email = 'Nuevo Lead desde mi página web';
@@ -146,7 +147,7 @@ if (
 		  <tr>
 		    <td style="padding-right: 0px;padding-left: 0px;" align="center">
 		      
-		      <img align="center" border="0" src="https://' . $host . '/assets/images/email/logo.png" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 29%;max-width: 139.2px;" width="139.2" class="v-src-width v-src-max-width"/>
+		      <img align="center" border="0" src="https://' . $host . '/assets/images/logos/zoe-logo.svg" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 29%;max-width: 139.2px;" width="139.2" class="v-src-width v-src-max-width"/>
 		      
 		    </td>
 		  </tr>
@@ -175,9 +176,9 @@ if (
 		    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
 		      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ffffff;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:500px;"><tr style="background-color: transparent;"><![endif]-->
 		      
-		<!--[if (mso)|(IE)]><td align="center" width="500" style="background-color: #86a170;width: 500px;padding: 20px 0px 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+		<!--[if (mso)|(IE)]><td align="center" width="500" style="background-color: #1D4E46;width: 500px;padding: 20px 0px 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
 		<div class="u-col u-col-100" style="max-width: 320px;min-width: 500px;display: table-cell;vertical-align: top;">
-		  <div style="background-color: #86a170;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+		  <div style="background-color: #1D4E46;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
 		  <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 20px 0px 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
 		  
 		<table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
@@ -185,7 +186,7 @@ if (
 		    <tr>
 		      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
 		        
-		  <h1 style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><strong>Lead interesado en el complejo </strong><br><strong>Azana Boutique Apartments</strong></h1>
+		  <h1 style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><strong>Lead interesado en el complejo </strong><br><strong>Zoe Townhouses</strong></h1>
 
 		      </td>
 		    </tr>
@@ -210,9 +211,9 @@ if (
 		    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
 		      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ffffff;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:500px;"><tr style="background-color: transparent;"><![endif]-->
 		      
-		<!--[if (mso)|(IE)]><td align="center" width="500" style="background-color: #86a170;width: 500px;padding: 20px 30px 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+		<!--[if (mso)|(IE)]><td align="center" width="500" style="background-color: #1D4E46;width: 500px;padding: 20px 30px 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
 		<div class="u-col u-col-100" style="max-width: 320px;min-width: 500px;display: table-cell;vertical-align: top;">
-		  <div style="background-color: #86a170;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+		  <div style="background-color: #1D4E46;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
 		  <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 20px 30px 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
 		  
 		<table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
@@ -251,9 +252,9 @@ if (
 		    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
 		      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: #ffffff;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:500px;"><tr style="background-color: transparent;"><![endif]-->
 		      
-		<!--[if (mso)|(IE)]><td align="center" width="500" style="background-color: #86a170;width: 500px;padding: 0px 30px 50px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+		<!--[if (mso)|(IE)]><td align="center" width="500" style="background-color: #1D4E46;width: 500px;padding: 0px 30px 50px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
 		<div class="u-col u-col-100" style="max-width: 320px;min-width: 500px;display: table-cell;vertical-align: top;">
-		  <div style="background-color: #86a170;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+		  <div style="background-color: #1D4E46;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
 		  <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px 30px 50px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
 		  
 		<table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
@@ -265,7 +266,7 @@ if (
 		  <tr>
 		    <td style="padding-right: 0px;padding-left: 0px;" align="center">
 		      
-		      <img align="center" border="0" src="https://' . $host . '/assets/images/email/banner.jpg" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 480px;" width="480" class="v-src-width v-src-max-width"/>
+		      <img align="center" border="0" src="https://' . $host . '/assets/images/logos/zoe-logo.svg" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 480px;" width="480" class="v-src-width v-src-max-width"/>
 		      
 		    </td>
 		  </tr>
@@ -305,7 +306,7 @@ if (
 		      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
 		        
 		  <div style="font-size: 14px; color: #000000; line-height: 140%; text-align: left; word-wrap: break-word;">
-		    <p style="line-height: 140%;">Este correo tiene el propósito de informar al administrador de AZANA BOUTIQUE APARTMENTS acerca de nuevos leads provenientes de su página web.</p>
+		    <p style="line-height: 140%;">Este correo tiene el propósito de informar al administrador de ZOE TOWNHOUSES acerca de nuevos leads provenientes de su página web.</p>
 		  </div>
 
 		      </td>
@@ -343,8 +344,8 @@ if (
 		        
 		  <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
 		<div align="center">
-		  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:37px; v-text-anchor:middle; width:154px;" arcsize="54%"  stroke="f" fillcolor="#86a170"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
-		    <a href="https://azana-apartments.com" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #86a170; border-radius: 20px;-webkit-border-radius: 20px; -moz-border-radius: 20px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
+		  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:37px; v-text-anchor:middle; width:154px;" arcsize="54%"  stroke="f" fillcolor="#1D4E46"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
+		    <a href="https://azana-apartments.com" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #1D4E46; border-radius: 20px;-webkit-border-radius: 20px; -moz-border-radius: 20px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
 		      <span style="display:block;padding:10px 20px;line-height:120%;">Visitar página web</span>
 		    </a>
 		    <!--[if mso]></center></v:roundrect><![endif]-->
