@@ -5994,6 +5994,7 @@
     .sm-h-40px { height: 40px !important; }
     .sm-h-42px { height: 42px !important; }
     .sm-h-50px { height: 50px !important; }
+    .sm-h-55px { height: 55px !important; }
     .sm-h-60px { height: 60px !important; }
     .sm-h-70px { height: 70px !important; }
     .sm-h-80px { height: 80px !important; }
@@ -8013,7 +8014,13 @@
     .countdown.countdown-style-02 .countdown-box { margin-bottom: 15px; padding: 0 25px; }
 
     .slider-text {
-        font-size: 40px;
+        font-size: 30px;
+        line-height: 50px;
+        margin-left: 0px;
+    }
+
+    .buttons {
+        margin-left: 0px;
     }
 
     .buttons a {
@@ -8041,16 +8048,68 @@
     .townhouses .subtitle .content {
         padding: 0 10px;
         text-align: center;
+        font-size: 16px;
     }
 
     .townhouses .subtitle .line {
-        width: 270px;
+        width: 320px;
         bottom: 85%;
+    }
+
+    header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img {
+        max-height: 54px;
+    }
+
+    .gallery-section .container .row .subtitle .line {
+        width: 320px;
+    }
+
+    .contact-section .container .row .subtitle .content {
+        font-size: 16px;
+    }
+
+    .contact-section .container .row .subtitle .line {
+        width: 320px;
+    }
+
+    .location-section .container .row .subtitle .line {
+        width: 320px;
+    }
+
+    .gallery-section .container .row .subtitle .content{
+        font-size: 16px;
     }
 
     .gallery-section .container .row .subtitle .line {
         bottom: 40%;
     }
+
+    .sm-flex-column-reverse {
+        flex-direction: column-reverse;
+        gap: 4rem;
+    
+    }
+    .buttons-models a {
+        font-size: 25px;
+    }
+
+    .apartments-section .container .row .image {
+        width: 100%;
+        height: 200px;
+    }
+    .apartments-section .container-fluid .row .texts .subtitle .content {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+
+    .apartments-section .container-fluid .row .texts .subtitle {
+        text-align: center;
+    }
+
+    .apartments-section .container-fluid .row .texts .subtitle .line {
+        width: 320px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -8196,8 +8255,11 @@
     }
 
     .btn.btn-green2 {
-        height: 55px;
+        height: auto;
 
+    }
+    .apartments-section .container .row .departments .subtitle .line, .townhouses .subtitle .line, .gallery-section .container .row .subtitle .line, .location-section .container .row .subtitle .line, .contact-section .container .row .subtitle .line {
+        width: 300px;
     }
 }
 
