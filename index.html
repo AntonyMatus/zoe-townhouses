@@ -451,7 +451,7 @@
 						<span class="content">Contacto</span>
 					</h3>
 					<h1 class="title">Estamos para ayudarte</h1>
-					<form onsubmit="sendMessage(event)" id="contact-form">
+					<form  id="contact-form">
 						<div class="row">
 							<div class="col-xs-12 col-md-6">
 								<input 
@@ -488,13 +488,16 @@
 								</select>
 							</div>
 							<div class="col-xs-12 col-md-12">
+								<div class="g-recaptcha" data-sitekey="6LeQyoMpAAAAAD44_RSRi-8Nsg91AJd0dO4zD279" data-callback="enabledSubmit" ></div>
+							</div>
+							<div class="col-xs-12 col-md-12">
 								<div class="form-check">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
 									<label class="form-check-label" for="exampleCheck1">Estoy de acuerdo con la <a href="politica_privacidad.html">politica de privacidad</a>.</label>
 								</div>
 							</div>
 						</div>
-						<button type="submit">Más información</button>
+						<button id="send_message" type="submit">Más información</button>
 					</form>
 				</div>
 			</div>
@@ -517,6 +520,8 @@
         </svg>
     </a>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+	<!-- sweatalert -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script src="./assets/js/app.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
@@ -524,15 +529,21 @@
 	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 	<script>
-		function openModal() {
-                const image = document.getElementById('firs_carrousel_image');
-                if(image) {
-                    image.click();
-                } 
-                
-            }
+		function openModal() 
+		{
+			const image = document.getElementById('firs_carrousel_image');
+			if(image) {
+				image.click();
+			}  
+        }
+		function enabledSubmit(response){
+			const submit = document.getElementById('send_message');
+			submit.disabled = false;
+		}
 	</script>
 
 	<script type="module">

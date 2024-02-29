@@ -8020,11 +8020,14 @@
     }
 
     .buttons {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
         margin-left: 0px;
     }
 
     .buttons a {
-        font-size: 8px;
+        font-size: 12px;
     }
     #navbarNav {
         margin-left: 0px;
@@ -8124,7 +8127,7 @@
     }
 
     .buttons a {
-        font-size: 7px;
+        font-size: 12px;
     }
 
     .azana-section .container .row .texts .subtitle .line {
@@ -8260,6 +8263,10 @@
     }
     .apartments-section .container .row .departments .subtitle .line, .townhouses .subtitle .line, .gallery-section .container .row .subtitle .line, .location-section .container .row .subtitle .line, .contact-section .container .row .subtitle .line {
         width: 300px;
+    }
+
+    .btn-whatsapp {
+        right: 15px;
     }
 }
 
